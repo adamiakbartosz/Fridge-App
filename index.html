@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/main.css">
+    <meta name="viewport" content="width=device-width">
+   
+</head>
+
+<body>
+    <container class="fridge-app">
+
+        <section class="main-page">
+            <div class="main-page__describe">
+                <p>To jest Twoja lodówka,</p>
+                <p>z nią zakupy robi się prościej!</p>
+            </div>
+            <div class="main-page__image">
+                <img class="fridge" src="img/front.png">
+            </div>
+            <div class="main-page__buttons">
+                <p class="main-page__question">Czego potrzebujesz?</p>
+                <button class="main-page__button_drink">Napoje</button>
+                <button class="main-page__button_food">Jedzenie</button>
+            </div>
+        </section>
+
+        <section class="drink-page display">
+            <div class="drink-page__describe">
+                <p>Spragniony?</p>
+                <p>Wybierz półkę, którą chcesz zapełnić <br> i ruszaj na zakupy!</p>
+                <div class="drink-page__buttons">
+                    <span class="drink-page__paragraph">Kliknij żeby wrócić na stronę główną <br> lub przejść do drzwi z jedzeniem :)</span><br>
+                    <button class="enter-page__button">Strona główna</button>
+                    <button class="food-page__button">Drzwi z jedzeniem</button>
+                </div>
+            </div>
+
+            <div class="fridge-drink">
+                <img class="fridge-drink__image" src="img/fridge_drink.png">
+                <div class="milk-article">
+                    <p>art.mleczne</p>
+                </div>
+                <div class="drinks-article">
+                    <p>napoje</p>
+                </div>
+                <div class="alkohol-article">
+                    <p>alkohol</p>
+                </div>
+                <div class="cook-article">
+                    <p>do smażenia</p>
+                </div>
+            </div>
+        </section> 
+
+        <section class="food-page display">
+            <div class="food-page__describe">
+                <p>Głodny?</p>
+                <p>Wybierz półkę, którą chcesz zapełnić <br> i ruszaj na zakupy!</p>
+                <div class="food-page__buttons">
+                    <span class="food-page__paragraph">Kliknij żeby wrócić na stronę główną <br> lub przejść do drzwi z napojami :)</span><br>
+              
+                    <button class="enter-page__button">Strona główna</button>
+                    <button class="drink-page__button">Drzwi z napojami</button>
+                </div>
+
+            </div>
+            <div class="fridge-food">
+                <img class="fridge-food__image" src="img/fridge_food.png">
+                <div class="jogo-article">
+                    <p>Jogurty</p>
+                </div>
+                <div class="ham-article">
+                    <p>Mięso</p>
+                </div>
+                <div class="fruits-article">
+                    <p>Owoce</p>
+                </div>
+                <div class="vegetables-article">
+                    <p>Warzywa</p>
+                </div>
+            </div>
+
+
+        </section>
+    </container>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
