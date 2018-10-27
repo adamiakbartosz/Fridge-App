@@ -19,6 +19,7 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
+ 
 }
 
 .display {
@@ -101,13 +102,13 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 100px;
-   
+
     position: relative;
 }
 
 .display {
-     display:none;
-    
+    display: none;
+
 }
 
 .drink-page__describe {
@@ -183,7 +184,7 @@ body {
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
-       position: absolute;
+    position: absolute;
 }
 
 .milk-article:hover {
@@ -218,7 +219,7 @@ body {
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
-      position: absolute;
+    position: absolute;
 }
 
 .alkohol-article:hover {
@@ -236,7 +237,7 @@ body {
     bottom: 19%;
     text-align: center;
     cursor: pointer;
-       position: absolute;
+    position: absolute;
 }
 
 
@@ -255,8 +256,9 @@ body {
 }
 
 .display {
-   display: none;
+    display: none;
 }
+
 .food-page__describe {
     position: relative;
     text-align: center;
@@ -270,9 +272,22 @@ body {
     text-align: center;
 }
 
+.enter-page__button-two {
+    background-color: #0CC7B6;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.enter-page__button-two:hover {
+    background-color: #03A89D;
+    transition: 0.6s;
+}
 .food-page__button {
     margin-top: 50px;
-  
+
 }
 
 .food-page__paragraph {
@@ -320,7 +335,7 @@ body {
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
-       position: absolute;
+    position: absolute;
 }
 
 .jogo-article:hover {
@@ -355,7 +370,7 @@ body {
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
-      position: absolute;
+    position: absolute;
 }
 
 .fruits-article:hover {
@@ -373,7 +388,7 @@ body {
     bottom: 19%;
     text-align: center;
     cursor: pointer;
-       position: absolute;
+    position: absolute;
 }
 
 .vegetables-article:hover {
